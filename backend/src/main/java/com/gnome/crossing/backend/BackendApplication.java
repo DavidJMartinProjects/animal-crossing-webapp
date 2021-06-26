@@ -98,7 +98,7 @@ public class BackendApplication {
 				.build();
 
 			// create new game
-			Game game = Game.builder()
+			Game game1 = Game.builder()
 				.itemLocations(Collections.unmodifiableList(Arrays.asList(itemLocation, itemLocation2)))
 				.startDate("18th July 2021")
 				.description("Clearing out my lil pony collection")
@@ -106,11 +106,27 @@ public class BackendApplication {
 				.players(Collections.unmodifiableList(Arrays.asList(player1, player2, player3)))
 				.build();
 
-			// save new game
-			Game savedGame = gameDbOperation.save(game);
-			gameDbOperation.save(game);
-			gameDbOperation.save(game);
-			log.info("saved: {}", savedGame);
+			Game game2 = Game.builder()
+				.itemLocations(Collections.unmodifiableList(Arrays.asList(itemLocation, itemLocation2)))
+				.startDate("1th April 2021")
+				.description("Saturday Clearout Special")
+				.startTimes(Collections.unmodifiableList(Arrays.asList(startTime1, startTime2, startTime3)))
+				.players(Collections.unmodifiableList(Arrays.asList(player1, player2, player3)))
+				.build();
+
+			Game game3 = Game.builder()
+				.itemLocations(Collections.unmodifiableList(Arrays.asList(itemLocation, itemLocation2)))
+				.startDate("8th May 2021")
+				.description("Special Surprise Game")
+				.startTimes(Collections.unmodifiableList(Arrays.asList(startTime1, startTime2, startTime3)))
+				.players(Collections.unmodifiableList(Arrays.asList(player1, player2, player3)))
+				.build();
+
+			// save default game
+			gameDbOperation.save(game1);
+			gameDbOperation.save(game2);
+			gameDbOperation.save(game3);
+			log.info("success: saved default games.");
 		};
 
 	}
