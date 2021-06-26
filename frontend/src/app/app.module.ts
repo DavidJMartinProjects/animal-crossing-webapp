@@ -1,25 +1,20 @@
-import { DataTablesModule } from 'angular-datatables';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { DataTablesModule } from 'angular-datatables';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GameAdminDatatableComponent } from './game-admin-datatable/game-admin-datatable.component';
-import * as $ from 'jquery';
-import { HttpClientModule } from '@angular/common/http';
-
-
 
 @NgModule({
   declarations: [
-    AppComponent,
-    GameAdminDatatableComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,    
-    HttpClientModule,
-    DataTablesModule
+    AppRoutingModule,
+    DataTablesModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

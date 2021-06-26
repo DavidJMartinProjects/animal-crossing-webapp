@@ -13370,3 +13370,148 @@
 2021-06-26 19:55:12.260  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
 2021-06-26 19:55:16.950  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
 2021-06-26 19:55:17.181  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 19:58:30.946  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 19:58:49.516  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 19:58:51.164  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 19:58:52.086  INFO 16532 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 19:58:52.852  INFO 16532 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 19:58:54.224  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 19:59:25.404  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 19:59:26.045  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 19:59:48.808  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 19:59:49.204  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:03.364  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:03.719  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:10.804  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:12.098  INFO 16532 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:13.258  INFO 16532 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:14.051  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:14.851  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:27.090  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:28.341  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:29.371  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:30.486  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:31.391  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:33.262  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:41.092  INFO 16532 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:43.499  INFO 16532 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:44.966  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:46.380  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:47.380  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:48.082  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:49.091  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:50.279  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:54.325  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:00:55.741  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:13:14.702  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:13:15.226  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:15:56.485  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:15:56.830  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:16:15.298  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:16:16.271  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:16:21.540  INFO 16532 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:16:39.596  INFO 16532 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:16:40.139  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:17:02.093  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:17:02.382  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:17:05.922  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:17:05.981  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:17:08.302  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:17:09.567  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:17:56.848  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:17:57.289  INFO 16532 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:18:31.498  INFO 16532 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:18:31.752  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:18:33.691  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:18:33.817  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:18:40.761  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:18:41.177  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:18:44.350  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:18:46.228  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:18:50.177  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:20:06.509  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:20:06.766  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:20:11.151  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:20:13.406  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:21:20.715  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:21:20.984  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:22:12.124  INFO 16532 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:22:13.440  INFO 16532 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:22:49.158  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:22:50.212  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:29:53.728  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:29:54.015  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:29:58.279  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:30:25.244  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:30:25.520  INFO 16532 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:30:29.094  INFO 16532 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:30:48.516  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:30:50.452  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:30:58.022  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:31:08.066  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:31:08.532  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:31:11.226  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:31:22.752  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:31:22.985  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:32:45.845  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:32:55.828  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:33:08.830  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:33:26.288  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:33:26.656  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:33:29.793  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:33:30.848  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:33:45.395  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:33:45.636  INFO 16532 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:33:52.070  INFO 16532 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:33:53.709  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:36:53.551  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:36:53.795  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:36:55.282  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:37:26.885  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:37:29.670  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:40:46.063  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:40:46.236  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:40:51.043  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:41:31.119  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:41:31.676  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:41:38.671  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:41:59.540  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:42:00.272  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:42:12.782  INFO 16532 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:42:13.358  INFO 16532 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:42:23.000  INFO 16532 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:42:31.010  INFO 16532 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:42:31.813  INFO 16532 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:42:41.543  INFO 16532 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:42:41.989  INFO 16532 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:43:20.757  INFO 16532 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:43:21.575  INFO 16532 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:43:23.051  INFO 16532 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:44:12.481  INFO 16532 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 20:44:13.734  INFO 16532 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-06-26 21:57:43.077  INFO 2692 --- [main] c.g.crossing.backend.BackendApplication  : Starting BackendApplication using Java 1.8.0_211 on DESKTOP-IGBVUVP with PID 2692 (D:\repo_gnome_crossing\online-game-webapp\backend\target\classes started by Dave in D:\repo_gnome_crossing\online-game-webapp\backend)
+2021-06-26 21:57:43.158  INFO 2692 --- [main] c.g.crossing.backend.BackendApplication  : No active profile set, falling back to default profiles: default
+2021-06-26 21:57:45.140  INFO 2692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-26 21:57:45.257  INFO 2692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 2 JPA repository interfaces.
+2021-06-26 21:57:46.429  INFO 2692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-26 21:57:46.446  INFO 2692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-26 21:57:46.446  INFO 2692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-06-26 21:57:46.648  INFO 2692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-26 21:57:46.663  INFO 2692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3362 ms
+2021-06-26 21:57:46.857  INFO 2692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-26 21:57:47.116  INFO 2692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-26 21:57:47.124  INFO 2692 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:memDb'
+2021-06-26 21:57:47.386  INFO 2692 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-26 21:57:47.488  INFO 2692 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-26 21:57:47.760  INFO 2692 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-26 21:57:47.933  INFO 2692 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-26 21:57:48.899  INFO 2692 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-26 21:57:48.910  INFO 2692 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-26 21:57:49.457  WARN 2692 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-26 21:57:50.193  INFO 2692 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-06-26 21:57:50.250  INFO 2692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-26 21:57:50.264  INFO 2692 --- [main] c.g.crossing.backend.BackendApplication  : Started BackendApplication in 8.366 seconds (JVM running for 9.499)
+2021-06-26 21:57:50.334  INFO 2692 --- [main] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: 18th July 2021.
+2021-06-26 21:57:50.538  INFO 2692 --- [main] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: 1th April 2021.
+2021-06-26 21:57:50.559  INFO 2692 --- [main] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: 8th May 2021.
+2021-06-26 21:57:50.582  INFO 2692 --- [main] c.g.crossing.backend.BackendApplication  : success: saved default games.
