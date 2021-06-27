@@ -65,20 +65,22 @@ export class AppComponent {
 
   addGnome(game: Game) {
     console.log("new gnome crossing.")
+    var value = $('#group input:radio .selected').val();
+    console.log("adding:" + value);
+    console.log($('input[name=gname]:checked').val());
 
     $('body').removeClass('modal-open'); // For scroll run
     // $('#newGameModal').modal('hide');
     // $('#newGameModal').modal('hide');    
     // $('#newGnomeModal').modal('show');  
+
+    // save a game
   }
+
+
+  
+
 
 }
 
-$(document).ready(function () {
 
-  $('#group input:radio').on('change', function () {
-    var value = $(this).val();
-    console.log(value);
-  });
-
-});
