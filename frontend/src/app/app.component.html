@@ -9,18 +9,58 @@
               <th>Time</th>
               <th>Description</th>
               <th>Active</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let group of data">
-              <td>{{group.startDate}}</td>
-              <td>{{group.startTimes[0].startTime}}</td>
-              <td>{{group.description}}</td>
+            <tr *ngFor="let game of data">
+              <td>{{game.startDate}}</td>
+              <td>{{game.startTimes[0].startTime}}</td>
+              <td>{{game.description}}</td>
               <td>Active</td>
+              <td>
+                <!-- <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Edit
+                </button> -->
+
+                <button type="button" class="btn btn-info btn-sm mr-2" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="showEditUserForm(game)">Edit</button>
+  
+                <button type="button" class="btn btn-danger btn-sm" (click)="removeUser(game)">Delete</button>
+              </td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger" id="exampleModalLabel">Login Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="button" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
