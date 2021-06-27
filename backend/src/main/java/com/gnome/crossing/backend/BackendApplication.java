@@ -54,29 +54,29 @@ public class BackendApplication {
 				.build();
 
 			ItemLocation itemLocation = ItemLocation.builder()
-				.imageUrl("/gnome-url-1")
+				.imageUrl("rebelGnomeBlack.png")
 				.location("behind the statue, next to the red tree.")
 				.locationKeywords(Collections.unmodifiableList(Arrays.asList(keyword1, keyword2)))
 				.description("happy red gnome")
 				.build();
 
 			ItemLocation itemLocation2 = ItemLocation.builder()
-				.imageUrl("/gnome-url-2")
+				.imageUrl("passionateGnomeRed.png")
 				.location("by the yellow pathway, next to well.")
 				.locationKeywords(Collections.unmodifiableList(Arrays.asList(keyword3, keyword4)))
 				.description("smiley green gnome")
 				.build();
 
 			StartTime startTime1 = StartTime.builder()
-				.startTime("8:00 PM GMT")
+				.startTime("08:00:00")
 				.build();
 
 			StartTime startTime2 = StartTime.builder()
-				.startTime("9:00 PM GMT")
+				.startTime("09:00:00")
 				.build();
 
 			StartTime startTime3 = StartTime.builder()
-				.startTime("10:00 PM GMT")
+				.startTime("10:00:00")
 				.build();
 
 			Player player1 = Player.builder()
@@ -100,7 +100,7 @@ public class BackendApplication {
 			// create new game
 			Game game1 = Game.builder()
 				.itemLocations(Collections.unmodifiableList(Arrays.asList(itemLocation, itemLocation2)))
-				.startDate("18th July 2021")
+				.startDate("2021-11-18")
 				.description("Clearing out my lil pony collection")
 				.startTimes(Collections.unmodifiableList(Arrays.asList(startTime1, startTime2, startTime3)))
 				.players(Collections.unmodifiableList(Arrays.asList(player1, player2, player3)))
@@ -108,7 +108,7 @@ public class BackendApplication {
 
 			Game game2 = Game.builder()
 				.itemLocations(Collections.unmodifiableList(Arrays.asList(itemLocation, itemLocation2)))
-				.startDate("1th April 2021")
+				.startDate("2020-07-14")
 				.description("Saturday Clearout Special")
 				.startTimes(Collections.unmodifiableList(Arrays.asList(startTime1, startTime2, startTime3)))
 				.players(Collections.unmodifiableList(Arrays.asList(player1, player2, player3)))
@@ -116,7 +116,7 @@ public class BackendApplication {
 
 			Game game3 = Game.builder()
 				.itemLocations(Collections.unmodifiableList(Arrays.asList(itemLocation, itemLocation2)))
-				.startDate("8th May 2021")
+				.startDate("2018-01-01")
 				.description("Special Surprise Game")
 				.startTimes(Collections.unmodifiableList(Arrays.asList(startTime1, startTime2, startTime3)))
 				.players(Collections.unmodifiableList(Arrays.asList(player1, player2, player3)))

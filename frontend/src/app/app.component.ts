@@ -11,8 +11,10 @@ export class AppComponent {
   title = 'frontend';
 
   data: any;
+  currentGame = {} as Game;
 
   games!: Game[];
+  // currentGame!: Game;
   userForm!: boolean;
   isNewUser!: boolean;
   newUser: any = {};
@@ -32,14 +34,20 @@ export class AppComponent {
           lengthMenu: [5, 10, 25]
         });
       }, 1);
-    }, error => console.error(error));
+    }, error => console.error(error));    
   }
 
   showEditUserForm(game: Game) {
     console.log("edit game: " + game.description);
+    this.currentGame = game;
+    console.log("currentGame set.");
     $('#exampleModal').modal('show');
-    $('#exampleInputEmail1').val(game.description);
-
+    // $('#exampleInputEmail1').val(game.startDate);
+    $('#startDateInput').val(game.startDate);
+    $('#startTimeInput').val(game.startTimes[0].startTime);
+    $('#descriptionInput').val(game.description);
+    // $('#exampleInputEmail1').val(game.description);
+    // $('#exampleInputEmail1').val(game.description);
     
   if (!game) {
     this.userForm = false;
@@ -54,7 +62,38 @@ removeUser(game: Game) {
   console.log("delete game: " + game.description);
 }
 
+
 }
+
+$(document).on('click', '.panel-heading span.clickable', function(e) {
+  var $this = $(this);
+  if (!$this.hasClass('panel-collapsed')) {
+    $this.closest('.panel').find('.panel-body').slideUp();
+    $this.addClass('panel-collapsed');
+    $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+  } else {
+    $this.closest('.panel').find('.panel-body').slideDown();
+    $this.removeClass('panel-collapsed');
+    $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+  }
+});
+$(document).on('click', '.panel div.clickable', function(e) {
+  var $this = $(this);
+  if (!$this.hasClass('panel-collapsed')) {
+    $this.closest('.panel').find('.panel-body').slideUp();
+    $this.addClass('panel-collapsed');
+    $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+  } else {
+    $this.closest('.panel').find('.panel-body').slideDown();
+    $this.removeClass('panel-collapsed');
+    $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+  }
+});
+$(document).ready(function() {
+  $('.panel-heading span.clickable').click();
+  $('.panel div.clickable').click();
+});
+
 
 // users: User[];
 // userForm: boolean;
