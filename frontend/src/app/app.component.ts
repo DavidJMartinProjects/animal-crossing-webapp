@@ -41,13 +41,10 @@ export class AppComponent {
     console.log("edit game: " + game.description);
     this.currentGame = game;
     console.log("currentGame set.");
-    $('#exampleModal').modal('show');
-    // $('#exampleInputEmail1').val(game.startDate);
+    $('#exampleModal').modal('show');    
     $('#startDateInput').val(game.startDate);
     $('#startTimeInput').val(game.startTimes[0].startTime);
     $('#descriptionInput').val(game.description);
-    // $('#exampleInputEmail1').val(game.description);
-    // $('#exampleInputEmail1').val(game.description);
     
   if (!game) {
     this.userForm = false;
@@ -62,8 +59,28 @@ removeUser(game: Game) {
   console.log("delete game: " + game.description);
 }
 
+showNewGnomeCrossingForm(){
+  console.log("new gnome crossing.")
+}
+
+addGnome(game: Game) {
+  console.log("new gnome crossing.")
+  
+$('body').removeClass('modal-open'); // For scroll run
+// $('#newGameModal').modal('hide');
+  // $('#newGameModal').modal('hide');    
+  // $('#newGnomeModal').modal('show');    
+}
+
+
+
 
 }
+
+// $("a.close").on("click", function(e){
+//   $("#modal").modal("hide");
+//   e.stopPropagation();
+// });
 
 $(document).on('click', '.panel-heading span.clickable', function(e) {
   var $this = $(this);

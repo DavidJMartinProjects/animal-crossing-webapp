@@ -20,4 +20,7 @@ public class GameService {
         return dbOperation.findAll();
     }
 
+    public Game createGame(Game game) {
+        return dbOperation.save(game);
+    }
 }
