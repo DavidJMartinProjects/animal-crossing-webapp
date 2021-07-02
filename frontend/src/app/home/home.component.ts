@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Game } from '../_models/Game';
 import { ItemLocation } from '../_models/ItemLocation';
-import { FormBuilder, FormGroup }from '@angular/forms'
+import { FormBuilder, FormGroup } from '@angular/forms'
 import { empty } from 'rxjs';
 
 
@@ -14,43 +14,34 @@ import { empty } from 'rxjs';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  data: any;
-  newGnomes: any;
-
-  formValue!: FormGroup;
+  data: any; 
   game: Game = new Game();
 
-  constructor(private formBuilder: FormBuilder, private httpClient: HttpClient, private restClient: RestClient) { 
-    //get request from web api
-    // this.httpClient.get('http://127.0.0.1:8080/games/').subscribe(data => {
-
-    //   this.data = data;
-    //   console.log("data: " + data);
-    //   setTimeout(() => {
-    //   }, 1);
-    // }, error => console.error(error));
+  formValue!: FormGroup;
+  
+  constructor(private formBuilder: FormBuilder, private httpClient: HttpClient, private restClient: RestClient) {
     this.getAllGames();
   }
 
   ngOnInit(): void {
     this.formValue = this.formBuilder.group({
-      startDate : [''],
-      startTime : [''],
-      description : [''],
-      active : [''],
-      imageUrl : ['']
+      startDate: [''],
+      startTime: [''],
+      description: [''],
+      active: [''],
+      imageUrl: ['']
     })
   }
 
-  postGame() {    
+  postGame() {
     this.game.id = 0;
-    this.game.startDate = this.formValue.value.startDate;    
+    this.game.startDate = this.formValue.value.startDate;
     this.game.description = this.formValue.value.description;
     this.game.startTime = this.formValue.value.startTime;
     this.game.players = new Array<Player>();
     this.game.active = false;
-    
-    this.restClient.postGame(this.game).subscribe(res=> {            
+
+    this.restClient.postGame(this.game).subscribe(res => {
       let ref = document.getElementById('closeBtn');
       ref?.click();
       this.formValue.reset();
