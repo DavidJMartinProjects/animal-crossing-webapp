@@ -2,6 +2,8 @@ package com.gnome.crossing.backend.model;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -15,7 +17,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@JsonPropertyOrder({ "id", "description", "startDate", "startTimes", "itemLocations", "players" })
+@JsonPropertyOrder({ "id", "description", "startDate", "startTime", "itemLocations", "players" })
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Game {
 
     private long id;
@@ -27,6 +30,6 @@ public class Game {
 
     private List<ItemLocation> itemLocations;
 
-    private List<StartTime> startTimes;
-
+//    private List<StartTime> startTimes;
+    private String startTime;
 }

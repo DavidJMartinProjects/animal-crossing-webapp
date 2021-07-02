@@ -37,6 +37,7 @@ public class GameEntity {
     private long id;
 
     private String startDate;
+    private String startTime;
     private String description;
 
     @OneToMany(targetEntity = PlayerEntity.class,cascade = CascadeType.ALL)
@@ -47,8 +48,8 @@ public class GameEntity {
     @JoinColumn(name ="itemLocation_fk",referencedColumnName = "id")
     private Set<ItemLocationEntity> itemLocations;
 
-    @OneToMany(targetEntity = StartTimeEntity.class,cascade = CascadeType.ALL)
-    @JoinColumn(name ="startTime_fk",referencedColumnName = "id")
-    private Set<StartTimeEntity> startTimes;
+//    @OneToMany(targetEntity = StartTimeEntity.class,cascade = CascadeType.ALL)
+//    @JoinColumn(name ="startTime_fk",referencedColumnName = "id")
+//    private Set<StartTimeEntity> startTimes;
 
 }

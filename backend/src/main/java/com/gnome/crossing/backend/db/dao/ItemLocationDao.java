@@ -57,11 +57,11 @@ public class ItemLocationDao implements DbOperation<ItemLocation> {
 //        return mapper.toDto(customerRepository.save(mapper.toEntity(customer)));
 //    }
 //
-//    @Override
-//    public void deleteById(long customerId) {
-//        log.info("deleting customer with id: {}.", customerId);
-//        customerRepository.deleteById(customerId);
-//    }
+    @Override
+    public void deleteById(long customerId) {
+        log.info("deleting customer with id: {}.", customerId);
+        itemLocationRespository.deleteById(customerId);
+    }
 //
 //    @Override
 //    public void deleteAll() {

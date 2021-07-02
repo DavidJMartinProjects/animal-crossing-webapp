@@ -57,11 +57,11 @@ public class GameDao implements DbOperation<Game> {
 //        return mapper.toDto(customerRepository.save(mapper.toEntity(customer)));
 //    }
 //
-//    @Override
-//    public void deleteById(long customerId) {
-//        log.info("deleting customer with id: {}.", customerId);
-//        customerRepository.deleteById(customerId);
-//    }
+    @Override
+    public void deleteById(long customerId) {
+        log.info("deleting customer with id: {}.", customerId);
+        gameRepository.deleteById(customerId);
+    }
 //
 //    @Override
 //    public void deleteAll() {

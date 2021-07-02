@@ -45,12 +45,12 @@ public interface DbOperation<T> {
 //     */
 //    T update(T entity);
 //
-//    /**
-//     * Delete a record by id.
-//     *
-//     * @param id the record id
-//     */
-//    void deleteById(long id);
+    /**
+     * Delete a record by id.
+     *
+     * @param id the record id
+     */
+    void deleteById(long id);
 //
 //    /**
 //     * Deletes all records.

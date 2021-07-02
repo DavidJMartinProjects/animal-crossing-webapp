@@ -23,4 +23,9 @@ public class GameService {
     public Game createGame(Game game) {
         return dbOperation.save(game);
     }
+
+    public void deleteGame(long id) {
+        dbOperation.deleteById(id);
+    }
+
 }
