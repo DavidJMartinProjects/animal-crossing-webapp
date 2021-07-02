@@ -139,3 +139,15 @@
 2021-07-03 00:41:03.425  INFO 19072 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
 2021-07-03 00:41:08.571  INFO 19072 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
 2021-07-03 00:41:08.571  INFO 19072 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 00:50:25.855  INFO 19072 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=, description=, players=[], itemLocations=null, startTime=)
+2021-07-03 00:50:25.855  INFO 19072 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: .
+2021-07-03 00:50:25.872  INFO 19072 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 00:50:25.872  INFO 19072 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 00:50:40.763  INFO 19072 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=2021-07-03, description=dave, players=[], itemLocations=null, startTime=00:50)
+2021-07-03 00:50:40.763  INFO 19072 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: 2021-07-03.
+2021-07-03 00:50:40.781  INFO 19072 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 00:50:40.781  INFO 19072 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 00:50:42.769  INFO 19072 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received delete request for game with id: 5
+2021-07-03 00:50:42.770  INFO 19072 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 5.
+2021-07-03 00:50:42.781  INFO 19072 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 00:50:42.781  INFO 19072 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
