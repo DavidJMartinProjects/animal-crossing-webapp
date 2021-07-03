@@ -1526,3 +1526,402 @@
 2021-07-03 13:11:41.304  INFO 7472 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 1.
 2021-07-03 13:11:41.327  INFO 7472 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
 2021-07-03 13:11:41.327  INFO 7472 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:11:54.458  INFO 15536 --- [main] c.g.crossing.backend.BackendApplication  : Starting BackendApplication using Java 1.8.0_211 on DESKTOP-IGBVUVP with PID 15536 (D:\newTake\backend\target\classes started by Dave in D:\newTake\backend)
+2021-07-03 13:11:54.461  INFO 15536 --- [main] c.g.crossing.backend.BackendApplication  : No active profile set, falling back to default profiles: default
+2021-07-03 13:11:56.070  INFO 15536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-03 13:11:56.156  INFO 15536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2021-07-03 13:11:57.191  INFO 15536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-03 13:11:57.204  INFO 15536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-03 13:11:57.205  INFO 15536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-03 13:11:57.313  INFO 15536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-03 13:11:57.314  INFO 15536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2768 ms
+2021-07-03 13:11:57.502  INFO 15536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 13:11:57.726  INFO 15536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 13:11:57.739  INFO 15536 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:memDb'
+2021-07-03 13:11:57.954  INFO 15536 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-03 13:11:58.037  INFO 15536 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-03 13:11:58.222  INFO 15536 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-03 13:11:58.350  INFO 15536 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 13:11:59.132  INFO 15536 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-03 13:11:59.140  INFO 15536 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 13:11:59.823  WARN 15536 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 13:12:00.437  INFO 15536 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-07-03 13:12:00.495  INFO 15536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-03 13:12:00.511  INFO 15536 --- [main] c.g.crossing.backend.BackendApplication  : Started BackendApplication in 6.618 seconds (JVM running for 7.296)
+2021-07-03 13:12:00.562  INFO 15536 --- [main] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: 2021-11-18.
+2021-07-03 13:12:00.741  INFO 15536 --- [main] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: 2020-07-14.
+2021-07-03 13:12:00.754  INFO 15536 --- [main] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: 2018-01-01.
+2021-07-03 13:12:00.768  INFO 15536 --- [main] c.g.crossing.backend.BackendApplication  : success: saved default games.
+2021-07-03 13:12:05.198  INFO 15536 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 13:12:05.199  INFO 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 13:12:05.201  INFO 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-07-03 13:12:05.302  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:12:05.302  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:12:18.356  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:12:18.357  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:12:21.212  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:12:21.213  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:12:42.240  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:12:42.241  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:12:45.112  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:12:45.113  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:12:54.763  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:12:54.763  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:13:01.236  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:13:01.237  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:13:08.632  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received delete request for game with id: 3
+2021-07-03 13:13:08.633  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 3.
+2021-07-03 13:13:08.684  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:13:08.685  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:13:27.170  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=2021-07-03, description=dave, players=[], itemLocations=[ItemLocation(id=null, uuid=cacbc5b3-b8fd-4987-bbdc-f0ad223f8c8b, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null), ItemLocation(id=null, uuid=12738925-2c16-41fa-9a0e-44a3e806aed2, imageUrl=hungryGnomeOrange, description=hungryGnomeOrange, location=, locationKeywords=null), ItemLocation(id=null, uuid=d5131347-096b-4453-abbe-65f3f987a5af, imageUrl=sleepyGnomePurple, description=sleepyGnomePurple, location=, locationKeywords=null)], startTime=13:13)
+2021-07-03 13:13:27.171  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: 2021-07-03.
+2021-07-03 13:13:27.197  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:13:27.197  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:13:52.444  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received delete request for game with id: 4
+2021-07-03 13:13:52.445  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 4.
+2021-07-03 13:13:52.467  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:13:52.468  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:14:40.292  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:14:40.293  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:16:02.888  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:16:02.889  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:16:23.434  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:16:23.435  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:17:15.154  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:17:15.154  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:17:16.439  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:17:16.439  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:17:30.821  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:17:30.821  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:17:37.864  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:17:37.864  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:17:38.959  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:17:38.959  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:17:44.292  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:17:44.292  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:17:58.812  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=, description=, players=[], itemLocations=[ItemLocation(id=null, uuid=99746f69-914f-40a4-8c86-f434aeacfe1b, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=)
+2021-07-03 13:17:58.813  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: .
+2021-07-03 13:17:58.835  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:17:58.835  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:18:16.497  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=99746f69-914f-40a4-8c86-f434aeacfe1b, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:18:16.498  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:18:16.517  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:18:16.517  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:18:20.769  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received delete request for game with id: 6
+2021-07-03 13:18:20.769  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 6.
+2021-07-03 13:18:20.789  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:18:20.789  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:18:21.909  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received delete request for game with id: 5
+2021-07-03 13:18:21.910  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 5.
+2021-07-03 13:18:21.927  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:18:21.927  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:19:37.823  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:19:37.827  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:21:40.780  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:21:40.780  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:27:15.277  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:27:15.277  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:28:17.279  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:28:17.280  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:28:46.312  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:28:46.313  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:28:50.600  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:28:50.600  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:28:54.879  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=, description=, players=[], itemLocations=[ItemLocation(id=null, uuid=f7223d4b-4191-4763-b93a-0ad338fd0fee, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=)
+2021-07-03 13:28:54.880  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: .
+2021-07-03 13:28:54.896  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:28:54.897  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:28:57.655  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received delete request for game with id: 7
+2021-07-03 13:28:57.655  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 7.
+2021-07-03 13:28:57.672  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:28:57.673  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:29:36.464  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:29:36.464  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:29:49.679  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=, description=test, players=[], itemLocations=[ItemLocation(id=null, uuid=d4122491-9c4b-4f9e-8307-b3105ca30885, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=)
+2021-07-03 13:29:49.680  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: .
+2021-07-03 13:29:49.702  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:29:49.703  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:29:51.156  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received delete request for game with id: 8
+2021-07-03 13:29:51.157  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 8.
+2021-07-03 13:29:51.176  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:29:51.176  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:29:53.738  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=d4122491-9c4b-4f9e-8307-b3105ca30885, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:29:53.738  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:29:53.759  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:29:53.760  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:29:58.787  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received delete request for game with id: 9
+2021-07-03 13:29:58.787  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 9.
+2021-07-03 13:29:58.806  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:29:58.807  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:32:21.864  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=d4122491-9c4b-4f9e-8307-b3105ca30885, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:32:21.865  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:32:21.887  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:32:21.887  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:32:23.595  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received delete request for game with id: 10
+2021-07-03 13:32:23.595  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 10.
+2021-07-03 13:32:23.612  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:32:23.612  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:32:27.241  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=d4122491-9c4b-4f9e-8307-b3105ca30885, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:32:27.241  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:32:27.267  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:32:27.267  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:32:29.227  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received delete request for game with id: 11
+2021-07-03 13:32:29.228  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 11.
+2021-07-03 13:32:29.245  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:32:29.245  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:32:31.774  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=d4122491-9c4b-4f9e-8307-b3105ca30885, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:32:31.775  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:32:31.794  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:32:31.794  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:32:33.432  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received delete request for game with id: 12
+2021-07-03 13:32:33.433  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 12.
+2021-07-03 13:32:33.451  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:32:33.452  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:32:51.220  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=TEST, players=[], itemLocations=[ItemLocation(id=null, uuid=d4122491-9c4b-4f9e-8307-b3105ca30885, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:32:51.221  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:32:51.240  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:32:51.241  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:32:52.583  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received delete request for game with id: 13
+2021-07-03 13:32:52.583  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 13.
+2021-07-03 13:32:52.598  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:32:52.598  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:33:23.265  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=dave, players=[], itemLocations=[ItemLocation(id=null, uuid=d4122491-9c4b-4f9e-8307-b3105ca30885, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:33:23.266  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:33:23.283  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:33:23.283  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:33:24.290  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received delete request for game with id: 14
+2021-07-03 13:33:24.290  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 14.
+2021-07-03 13:33:24.307  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:33:24.308  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:33:27.376  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=d4122491-9c4b-4f9e-8307-b3105ca30885, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:33:27.376  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:33:27.395  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:33:27.396  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:33:28.247  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received delete request for game with id: 15
+2021-07-03 13:33:28.247  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 15.
+2021-07-03 13:33:28.265  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:33:28.265  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:33:49.696  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:33:49.697  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:33:53.708  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=, description=, players=[], itemLocations=[ItemLocation(id=null, uuid=5c17dcca-ee88-485d-8f23-d6add3f51235, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=)
+2021-07-03 13:33:53.709  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: .
+2021-07-03 13:33:53.729  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:33:53.729  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:33:55.295  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received delete request for game with id: 16
+2021-07-03 13:33:55.296  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 16.
+2021-07-03 13:33:55.312  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:33:55.313  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:34:07.464  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=TEST, players=[], itemLocations=[ItemLocation(id=null, uuid=5c17dcca-ee88-485d-8f23-d6add3f51235, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:34:07.465  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:34:07.485  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:34:07.486  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:34:09.310  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received delete request for game with id: 17
+2021-07-03 13:34:09.311  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 17.
+2021-07-03 13:34:09.326  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:34:09.326  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:34:12.241  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=5c17dcca-ee88-485d-8f23-d6add3f51235, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:34:12.241  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:34:12.258  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:34:12.258  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:34:13.660  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received delete request for game with id: 18
+2021-07-03 13:34:13.660  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 18.
+2021-07-03 13:34:13.675  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:34:13.676  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:34:35.296  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:34:35.296  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:34:38.317  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=, description=, players=[], itemLocations=[ItemLocation(id=null, uuid=d1470b92-eaa6-4805-9b66-7644fb2acffa, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=)
+2021-07-03 13:34:38.317  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: .
+2021-07-03 13:34:38.343  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:34:38.343  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:34:40.178  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received delete request for game with id: 19
+2021-07-03 13:34:40.178  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 19.
+2021-07-03 13:34:40.192  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:34:40.192  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:34:45.928  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=d1470b92-eaa6-4805-9b66-7644fb2acffa, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:34:45.928  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:34:45.947  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:34:45.948  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:34:47.584  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received delete request for game with id: 20
+2021-07-03 13:34:47.585  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 20.
+2021-07-03 13:34:47.600  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:34:47.601  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:36:01.428  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:36:01.428  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:36:10.841  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=, description=test, players=[], itemLocations=[ItemLocation(id=null, uuid=d77fc6cb-39ac-45cc-ba16-50f5d404f0e0, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=)
+2021-07-03 13:36:10.841  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: .
+2021-07-03 13:36:10.877  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:36:10.878  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:36:25.500  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=dave, players=[], itemLocations=[ItemLocation(id=null, uuid=d77fc6cb-39ac-45cc-ba16-50f5d404f0e0, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:36:25.501  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:36:25.521  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:36:25.521  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:36:34.099  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=d77fc6cb-39ac-45cc-ba16-50f5d404f0e0, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:36:34.099  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:36:34.120  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:36:34.121  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:39:04.009  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:39:04.009  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:40:34.925  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:40:34.925  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:41:14.332  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:41:14.332  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:41:44.835  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:41:44.835  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:41:59.639  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:41:59.640  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:42:49.149  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:42:49.149  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:01.729  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:01.730  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:05.559  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:05.559  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:06.717  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received delete request for game with id: 23
+2021-07-03 13:43:06.718  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 23.
+2021-07-03 13:43:06.746  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:06.747  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:07.776  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received delete request for game with id: 22
+2021-07-03 13:43:07.777  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 22.
+2021-07-03 13:43:07.800  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:07.800  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:11.193  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=, description=, players=[], itemLocations=[ItemLocation(id=null, uuid=80f21df7-82f0-4d03-b5f3-05a1da5d144a, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=)
+2021-07-03 13:43:11.193  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: .
+2021-07-03 13:43:11.211  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:11.212  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:16.652  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=80f21df7-82f0-4d03-b5f3-05a1da5d144a, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:43:16.652  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:43:16.668  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:16.668  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:21.223  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=80f21df7-82f0-4d03-b5f3-05a1da5d144a, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:43:21.223  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:43:21.241  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:21.242  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:29.704  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:29.704  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:34.180  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=, description=, players=[], itemLocations=[ItemLocation(id=null, uuid=bc1bc8c3-0d81-4456-b6c7-f5f7e0424526, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=)
+2021-07-03 13:43:34.180  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: .
+2021-07-03 13:43:34.195  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:34.195  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:40.364  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=null, description=null, players=[], itemLocations=[ItemLocation(id=null, uuid=bc1bc8c3-0d81-4456-b6c7-f5f7e0424526, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=null)
+2021-07-03 13:43:40.364  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: null.
+2021-07-03 13:43:40.381  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:40.382  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:46.647  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:46.647  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:43:47.861  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received delete request for game with id: 28
+2021-07-03 13:43:47.862  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 28.
+2021-07-03 13:43:47.904  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:43:47.905  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:44:07.548  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received delete request for game with id: 26
+2021-07-03 13:44:07.549  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 26.
+2021-07-03 13:44:07.563  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:44:07.564  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:44:08.328  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received delete request for game with id: 25
+2021-07-03 13:44:08.329  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 25.
+2021-07-03 13:44:08.340  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:44:08.340  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:44:10.022  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received delete request for game with id: 24
+2021-07-03 13:44:10.023  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 24.
+2021-07-03 13:44:10.037  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:44:10.037  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:44:12.076  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received delete request for game with id: 27
+2021-07-03 13:44:12.076  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 27.
+2021-07-03 13:44:12.089  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:44:12.089  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:44:12.895  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received delete request for game with id: 21
+2021-07-03 13:44:12.895  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 21.
+2021-07-03 13:44:12.908  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:44:12.908  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:44:20.231  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=, description=dave, players=[], itemLocations=[ItemLocation(id=null, uuid=3933577b-b171-4f68-b191-c6a7774c2f19, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=)
+2021-07-03 13:44:20.231  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: .
+2021-07-03 13:44:20.248  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:44:20.248  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:44:22.410  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received delete request for game with id: 29
+2021-07-03 13:44:22.410  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 29.
+2021-07-03 13:44:22.426  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:44:22.426  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:44:25.653  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:44:25.654  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:44:32.219  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:44:32.221  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:44:34.875  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:44:34.875  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:45:10.878  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:45:10.878  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:45:14.213  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:45:14.213  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:45:27.262  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:45:27.262  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:45:47.873  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:45:47.873  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:46:31.715  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:46:31.715  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:46:36.191  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:46:36.191  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:47:02.207  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:47:02.208  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:47:21.483  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:47:21.483  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:47:45.773  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:47:45.773  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:48:15.232  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:48:15.232  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:48:30.687  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:48:30.688  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:48:55.852  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=2021-07-03, description=dave, players=[], itemLocations=[ItemLocation(id=null, uuid=bb3bf5bc-0c82-46c7-939f-c1373d6d9be8, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null), ItemLocation(id=null, uuid=87556f86-e0c4-4039-8058-aed4df8b74bb, imageUrl=sleepyGnomePurple, description=sleepyGnomePurple, location=, locationKeywords=null)], startTime=18:48)
+2021-07-03 13:48:55.853  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: 2021-07-03.
+2021-07-03 13:48:55.867  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:48:55.867  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:48:57.901  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received delete request for game with id: 30
+2021-07-03 13:48:57.901  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 30.
+2021-07-03 13:48:57.914  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:48:57.914  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:49:42.492  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:49:42.492  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:49:58.958  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:49:58.958  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:50:04.732  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:50:04.732  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:50:07.323  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:50:07.324  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:50:10.270  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:50:10.270  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:50:20.523  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:50:20.523  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:50:33.539  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:50:33.539  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:51:22.068  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:51:22.069  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:51:34.945  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:51:34.945  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:52:06.265  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:52:06.265  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:52:07.257  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:52:07.257  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:52:44.325  INFO 15536 --- [http-nio-8080-exec-1] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:52:44.325  INFO 15536 --- [http-nio-8080-exec-1] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:52:48.514  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:52:48.514  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:53:09.878  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:53:09.878  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:53:30.301  INFO 15536 --- [http-nio-8080-exec-4] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:53:30.301  INFO 15536 --- [http-nio-8080-exec-4] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:54:12.376  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:54:12.376  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:54:44.485  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:54:44.486  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:55:08.137  INFO 15536 --- [http-nio-8080-exec-7] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:55:08.137  INFO 15536 --- [http-nio-8080-exec-7] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:55:24.788  INFO 15536 --- [http-nio-8080-exec-8] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:55:24.788  INFO 15536 --- [http-nio-8080-exec-8] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:55:29.607  INFO 15536 --- [http-nio-8080-exec-9] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:55:29.607  INFO 15536 --- [http-nio-8080-exec-9] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:55:30.921  INFO 15536 --- [http-nio-8080-exec-10] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:55:30.921  INFO 15536 --- [http-nio-8080-exec-10] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:56:06.464  INFO 15536 --- [http-nio-8080-exec-2] c.g.c.backend.controller.GameController  : received post request with data: Game(id=0, startDate=2021-07-03, description=TEST, players=[], itemLocations=[ItemLocation(id=null, uuid=e0adefdd-530c-4aff-a620-d7d9944452d9, imageUrl=sleepyGnomePurple, description=sleepyGnomePurple, location=, locationKeywords=null), ItemLocation(id=null, uuid=8180a146-bdc1-42fc-babd-f5c0f1102166, imageUrl=reliableGnomeBlue, description=reliableGnomeBlue, location=, locationKeywords=null), ItemLocation(id=null, uuid=7c0b81f5-8ce5-4a8e-9b8b-5fe507eb6252, imageUrl=laidbackGnomeGreen, description=laidbackGnomeGreen, location=, locationKeywords=null)], startTime=13:56)
+2021-07-03 13:56:06.464  INFO 15536 --- [http-nio-8080-exec-2] c.gnome.crossing.backend.db.dao.GameDao  : saving game with start date: 2021-07-03.
+2021-07-03 13:56:06.478  INFO 15536 --- [http-nio-8080-exec-3] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:56:06.478  INFO 15536 --- [http-nio-8080-exec-3] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.
+2021-07-03 13:56:09.821  INFO 15536 --- [http-nio-8080-exec-5] c.g.c.backend.controller.GameController  : received delete request for game with id: 31
+2021-07-03 13:56:09.821  INFO 15536 --- [http-nio-8080-exec-5] c.gnome.crossing.backend.db.dao.GameDao  : deleting customer with id: 31.
+2021-07-03 13:56:09.833  INFO 15536 --- [http-nio-8080-exec-6] c.g.c.backend.controller.GameController  : received post request with data: /games
+2021-07-03 13:56:09.834  INFO 15536 --- [http-nio-8080-exec-6] c.gnome.crossing.backend.db.dao.GameDao  : fetching customers.

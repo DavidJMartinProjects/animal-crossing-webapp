@@ -28,9 +28,6 @@ export class HomeComponent implements OnInit {
   
   constructor(private formBuilder: FormBuilder, private httpClient: HttpClient, private restClient: RestClient) {
     this.getAllGames();    
-    this.newGnomes = new Array<ItemLocation>();
-    const theId = uuid.v4();
-    this.newGnomes.push(new ItemLocation(theId, "laidbackGnomeGreen", "laidbackGnomeGreen"));    
   }
 
   ngOnInit(): void {
@@ -44,12 +41,6 @@ export class HomeComponent implements OnInit {
   }
 
   postGame() {
-
-
-  //   <div *ngIf="submitted && f.fullname.errors" class="invalid-feedback">
-  //   <div *ngIf="f.fullname.errors.required">Fullname is required</div>
-  // </div>
-
     this.game.id = 0;
     this.game.startDate = this.formValue.value.startDate;
     this.game.description = this.formValue.value.description;
@@ -62,7 +53,7 @@ export class HomeComponent implements OnInit {
       let ref = document.getElementById('closeBtn');
       ref?.click();
       this.formValue.reset();
-      this.getAllGames();
+      this.getAllGames();      
     },
     err => {
       console.log('encountered error during post request.');
@@ -72,6 +63,9 @@ export class HomeComponent implements OnInit {
   getAllGames() {
     this.restClient.getAllGames().subscribe((response: any) => {
       this.data = response
+      this.newGnomes = new Array<ItemLocation>();
+      const theId = uuid.v4();
+      this.newGnomes.push(new ItemLocation(theId, "laidbackGnomeGreen", "laidbackGnomeGreen"));   
     })
   }
 
