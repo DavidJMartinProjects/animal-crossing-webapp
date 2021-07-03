@@ -43,9 +43,10 @@
           <h5 class="modal-title text-danger" id="exampleModalLabel">Create Event</h5>
           <button type="button" class="btn-close" id="closeBtn" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body justify-content-center">
           <form [formGroup]="formValue">
-            <div class="card justify-content-center input-card">
+            
+              <div class="card justify-content-center input-card">
               <div class="row input-row justify-content-center">
                 <div class="col">
                   <label for="startDate" class="form-label">Date</label>
@@ -61,11 +62,10 @@
 
               <div class="mb-3">
                 <label for="description" class="form-label">Description</label>
-                <input type="text" formControlName="description" class="form-control" id="description"
+                <input type="text" formControlName="description" class="form-control" id="description" name="description"
                   aria-describedby="descriptionDateHelp">
-              </div>
 
-              <div class="d-flex  container ">
+                <div class="d-flex  container ">
 
                 <div class="row">
                   <div class="col">
@@ -73,7 +73,7 @@
                       <div class="row justify-content-center">
                         <!-- <div class="form-check form-check-inline"> -->
                         <fieldset align="center" class="justify-content-center mx-auto text-center" id="group">
-                          <div class="col">
+                          <div class="col my-3">
                             <div class="form-check" id="form-check">
                               <input type="radio" name="gname" id="hulaDoll" value="hulaDoll" checked>
                               <label for="hulaDoll">
@@ -133,53 +133,42 @@
                       </div>
                     </div>
                   </div>
-
-
-
                 </div>
 
                 <div class="row mx-4">
-                  <div class="col">
-                    <div class="card card-sm">
+                  <div class="col  my-3">
+                    <div class="card card-sm input-card">
                       <div class="row">
-                        <table p *ngIf="newGnomes.length > 0"
+                        <table 
                           class="table item-table table-striped table-bordered table-sm row-border hover"
                           id="gnomeTable">
                           <thead style="text-align: center; vertical-align: middle;">
                             <tr>
                               <th>Gnome</th>
                               <th>Description</th>
-                              <!-- <th>Location</th> -->
-                              <th></th>
+                              <th>Action</th>
                             </tr>
                           </thead>
-                          <tbody style="text-align: center; vertical-align: middle;">
+                          <tbody *ngIf="newGnomes.length > 0" style="text-align: center; vertical-align: middle;">
                             <tr *ngFor="let item of newGnomes; let i = index">
                               <td>
                                 <div><img class="small-gnome-pic" src="assets/images/{{item.imageUrl}}.png"></div>
                               </td>
                               <td>{{item.description}}</td>
-                              <!-- <td>{{item.location}}</td> -->
                               <td class="justify-contents-center">
-                                <!-- <button type="button button-sm" class="btn btn-info btn-sm mr-2"
-                                        (click)="showEditUserForm(currentGame)">Edit</button>&nbsp; -->
                                 <button type="button" class="btn btn-danger btn-sm" (click)="deleteGnome(item.uuid)">Delete</button>
                               </td>
                             </tr>
                           </tbody>
-                        </table>
+                        </table>                        
                       </div>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
-
-
-
-
-
+            </div>
+            
 
           </form>
         </div>

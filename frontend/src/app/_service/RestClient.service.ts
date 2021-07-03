@@ -11,7 +11,7 @@ export class RestClient {
     constructor(private httpClient: HttpClient) { }
 
     postGame(data: Game) {
-        console.log('posting game: {}', data);
+        console.log('posting event: ', data);
         return this.httpClient.post<Game>('http://127.0.0.1:8080/games/', data, { responseType: "json" })
             .pipe(map((res: any) => {
                 return res;
@@ -19,7 +19,7 @@ export class RestClient {
     }
 
     getAllGames() {
-        console.log('getting all games.');
+        console.log('fetching events.');
         return this.httpClient.get<Game[]>('http://127.0.0.1:8080/games/', { responseType: "json" })
             .pipe(map((res: any) => {
                 return res;
@@ -27,6 +27,7 @@ export class RestClient {
     }
 
     deleteGameById(id: number) {
+        console.log('deleting event with id: ', id);
         return this.httpClient.delete<Game[]>('http://127.0.0.1:8080/games/' + id, { responseType: "json" })
             .pipe(map((res: any) => {
                 return res;

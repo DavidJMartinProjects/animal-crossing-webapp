@@ -102,7 +102,6 @@ public class BackendApplication {
 				.itemLocations(Collections.unmodifiableList(Arrays.asList(itemLocation, itemLocation2)))
 				.startDate("2021-11-18")
 				.description("Clearing out my statue collection")
-//				.startTimes(Collections.unmodifiableList(Arrays.asList(startTime1, startTime2, startTime3)))
 				.startTime(startTime1.getStartTime())
 				.players(Collections.unmodifiableList(Arrays.asList(player1, player2, player3)))
 				.build();
@@ -111,7 +110,6 @@ public class BackendApplication {
 				.itemLocations(Collections.unmodifiableList(Arrays.asList(itemLocation, itemLocation2)))
 				.startDate("2020-07-14")
 				.description("Saturday Clearout Special")
-//				.startTimes(Collections.unmodifiableList(Arrays.asList(startTime1, startTime2, startTime3)))
 				.startTime(startTime2.getStartTime())
 				.players(Collections.unmodifiableList(Arrays.asList(player1, player2, player3)))
 				.build();
@@ -119,8 +117,7 @@ public class BackendApplication {
 			Game game3 = Game.builder()
 				.itemLocations(Collections.unmodifiableList(Arrays.asList(itemLocation, itemLocation2)))
 				.startDate("2018-01-01")
-				.description("Special Surprise Game")
-//				.startTimes(Collections.unmodifiableList(Arrays.asList(startTime1, startTime2, startTime3)))
+				.description("Special Surprise Event")
 				.startTime(startTime3.getStartTime())
 				.players(Collections.unmodifiableList(Arrays.asList(player1, player2, player3)))
 				.build();

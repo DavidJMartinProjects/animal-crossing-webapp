@@ -18,6 +18,7 @@ public class ItemLocation {
 
     private Long id;
 
+    private String uuid;
     private String imageUrl;
     private String description;
     private String location;
