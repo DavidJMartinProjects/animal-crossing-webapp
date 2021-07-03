@@ -1,5 +1,5 @@
-import { Player } from './../_models/Player';
-import { RestClient } from './../_service/RestClient.service';
+import { Player } from '../_models/Player';
+import { RestClient } from '../_service/RestClient.service';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Game } from '../_models/Game';
@@ -40,8 +40,7 @@ export class HomeComponent implements OnInit {
     })
   }
 
-  postGame() {
-    this.game.id = 0;
+  postGame() {    
     this.game.startDate = this.formValue.value.startDate;
     this.game.description = this.formValue.value.description;
     this.game.startTime = this.formValue.value.startTime;
@@ -102,6 +101,14 @@ export class HomeComponent implements OnInit {
     this.observableGnomes.subscribe((response: any) => {      
       this.newGnomes = this.newGnomes.filter( gnome => gnome.uuid !== theId); // delete row      
     })
+  }
+
+  editEvent(game: Game) {    
+    this.formValue.controls['startTime'].setValue(game.startTime);
+    this.formValue.controls['startDate'].setValue(game.startDate);
+    this.formValue.controls['description'].setValue(game.description);
+    this.newGnomes = game.itemLocations;
+
   }
 
 }
