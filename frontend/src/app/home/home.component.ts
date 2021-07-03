@@ -63,9 +63,9 @@ export class HomeComponent implements OnInit {
   getAllGames() {
     this.restClient.getAllGames().subscribe((response: any) => {
       this.data = response
-      this.newGnomes = new Array<ItemLocation>();
-      const theId = uuid.v4();
-      this.newGnomes.push(new ItemLocation(theId, "laidbackGnomeGreen", "laidbackGnomeGreen"));   
+
+      this.newGnomes = new Array<ItemLocation>();      
+      this.newGnomes.push(new ItemLocation(uuid.v4(), "laidbackGnomeGreen", "laidbackGnomeGreen"));   
     })
   }
 
@@ -84,14 +84,18 @@ export class HomeComponent implements OnInit {
         const theId = uuid.v4();
         this.newGnomes.push(new ItemLocation(theId, imageUrl, description));
         this.getAllGnomes();
-      })
-    
+      })    
   }
 
   getAllGnomes() {
     this.observableGnomes.subscribe((response: any) => {      
       this.observableGnomes = of(response);
     })
+  }
+
+  resetGnomes() {
+    this.newGnomes = new Array<ItemLocation>();      
+    this.newGnomes.push(new ItemLocation(uuid.v4(), "laidbackGnomeGreen", "laidbackGnomeGreen"));   
   }
 
   deleteGnome(theId: string) {
