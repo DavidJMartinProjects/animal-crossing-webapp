@@ -15,6 +15,7 @@ import { empty } from 'rxjs';
 })
 export class HomeComponent implements OnInit {
   data: any; 
+  newGnomes: any;
   game: Game = new Game();
 
   formValue!: FormGroup;

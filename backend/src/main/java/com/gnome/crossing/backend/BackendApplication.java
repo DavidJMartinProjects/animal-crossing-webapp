@@ -82,26 +82,26 @@ public class BackendApplication {
 			Player player1 = Player.builder()
 				.ign("Princess_xXx")
 				.redditUsername("V_v_V")
-				.islandName("Island of Love")
+				.islandName("planet")
 				.build();
 
 			Player player2 = Player.builder()
 				.ign("Thor_Alpha")
 				.redditUsername("M_m_M")
-				.islandName("Howyez luv island")
+				.islandName("treasure_island")
 				.build();
 
 			Player player3 = Player.builder()
 				.ign("DUU_BE_DUU_LAD")
 				.redditUsername("V_v_V")
-				.islandName("Duu be duu land")
+				.islandName("austria")
 				.build();
 
 			// create new game
 			Game game1 = Game.builder()
 				.itemLocations(Collections.unmodifiableList(Arrays.asList(itemLocation, itemLocation2)))
 				.startDate("2021-11-18")
-				.description("Clearing out my lil pony collection")
+				.description("Clearing out my statue collection")
 //				.startTimes(Collections.unmodifiableList(Arrays.asList(startTime1, startTime2, startTime3)))
 				.startTime(startTime1.getStartTime())
 				.players(Collections.unmodifiableList(Arrays.asList(player1, player2, player3)))
